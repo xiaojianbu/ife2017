@@ -1,0 +1,190 @@
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dedede;
+}
+
+nav {
+  height: 60px;
+  background-color: #333;
+  margin-bottom: 20px;
+  padding-left: 35px;
+}
+
+nav>ul {
+  float: right;
+}
+
+nav>ul>li {
+  float: left;
+  margin-top: 20px;
+  margin-right: 25px;
+}
+
+nav>ul:last-child {
+  margin-right: 0;
+}
+
+nav>ul>li>a {
+  color: #fff;
+  text-decoration: none;
+}
+
+article {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 35px 25px 40px 20px;
+  box-shadow: 2px 2px #848484;
+}
+
+.articleTitle {
+  color: #cbcbcb;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.articleInfo {
+  color: #636164;
+  margin-bottom: 20px;
+  text-indent: 0em;
+}
+
+article>p {
+  text-indent: 2em;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+article>ul {
+  list-style: none;
+}
+
+article>ul>li {
+  margin-top: 5px;
+}
+
+article>h3 {
+  margin-bottom: 20px;
+}
+
+figure {
+  width: 120px;
+  height: 125px;
+  border: 1px solid #cecece;
+  margin-bottom: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+article:last-child {
+  margin-bottom: 0;
+}
+
+figure>img {
+  width: 100px;
+  height: 80px;
+}
+
+figcaption {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+article>ol {
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+}
+
+thead {
+  background-color: #333;
+  color: #fff;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+tfoot {
+  background-color: #ccc;
+}
+
+aside {
+  margin: 40px 20px 20px 20px;
+  background-color: #fff;
+  padding: 35px 25px 40px 20px;
+  box-shadow: 2px 2px #848484;
+}
+
+aside h4 {
+  height: 40px;
+  border-left: 2px solid #cbcbcb;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+aside div {
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+aside label {
+  float: left;
+  text-align: right;
+  width: 35%;
+  padding-right: 15px;
+}
+
+aside p {
+  margin-top: 10px;
+  margin-left: 35%;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+input[type='submit'] {
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  background-color: #3355d0;
+  border: none;
+  border-radius: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+}
